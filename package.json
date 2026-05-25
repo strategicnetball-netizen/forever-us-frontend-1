@@ -1,10 +1,24 @@
 ﻿{
   "name": "forever-us-app",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "start": "node server.js"
   },
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "axios": "^1.6.2",
+    "zustand": "^4.4.1",
+    "socket.io-client": "^4.8.3",
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "vite": "^5.0.8",
+    "@vitejs/plugin-react": "^4.2.1"
   }
 }
